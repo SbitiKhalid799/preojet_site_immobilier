@@ -15,7 +15,7 @@
             height: 100vh;
         }
         #img{
-            background-image: url('/LoginImage.jpg');
+            background-image: url('images_login/LoginImage.jpg');
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
