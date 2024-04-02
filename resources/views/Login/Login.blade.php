@@ -15,7 +15,7 @@
             height: 100vh;
         }
         #img{
-            background-image: url('LoginImage.jpg');
+            background-image: url('/LoginImage.jpg');
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -24,7 +24,7 @@
         form{
             width: 70% ;
             height: 40px;
-            border: 2px solid;
+            border: 1px solid #424040;
             height: 300px;
             border-radius:10px;
         }
@@ -55,7 +55,8 @@
             padding :0 20px;
             border-radius:4000px;
             color: white;
-            border: 2px solid #424040;
+            border: 1px solid #424040;
+            transform: scale(1.2,1.2);
         }
 
         form button:hover{
@@ -68,7 +69,8 @@
 </head>
 <body>
     <main class="row">
-        <div id="img" class="col-lg-5 col-md-4 col-sm-2 d-sm-block d-none bg-primary"></div>
+        <div id="img" class="col-lg-5 col-md-4 col-sm-2 d-sm-block d-none bg-primary">
+        </div>
         <div class="col-lg-7 col-md-8 col-sm-10
         d-flex align-items-center justify-content-center">
             <form action="" class="d-flex flex-column align-items-center justify-content-center">
