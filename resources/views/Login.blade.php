@@ -15,7 +15,7 @@
             height: 100vh;
         }
         #img{
-            background-image: url('images_login/LoginImage.jpg');
+            background-image: url('images/LoginImage.jpg');
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -23,9 +23,8 @@
 
         form{
             width: 70% ;
-            height: 40px;
             border: 1px solid #424040;
-            height: 300px;
+            height: 250px;
             border-radius:10px;
         }
 
