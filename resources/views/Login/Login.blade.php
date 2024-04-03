@@ -53,7 +53,7 @@
         form button {
             background-color: #424040;
             padding :0 20px;
-            border-radius:4000px;
+            border-radius:8px;
             color: white;
             border: 1px solid #424040;
             transform: scale(1.2,1.2);
@@ -69,24 +69,24 @@
 </head>
 <body>
     <main class="row">
-        <div id="img" class="col-lg-5 col-md-4 col-sm-2 d-sm-block d-none bg-primary">
+        <div id="img" class="col-lg-5 col-md-4 col-sm-2 d-sm-block d-none ">
         </div>
         <div class="col-lg-7 col-md-8 col-sm-10
         d-flex align-items-center justify-content-center">
             <form action="" class="d-flex flex-column align-items-center justify-content-center">
                 <h1 class="titleForm">Log in</h1>
                 <div>
-                    <label for="">Use Name</label>
+                    <label for="">Username</label>
                     <br>
-                    <input type="text">
+                    <input type="text"  class="form-control border-dark">
                 </div>
                 <div>
                     <label for="">Password</label>
                     <br>
-                    <input type="text">
+                    <input type="text" class="form-control border-dark">
                 </div>
-                <div class="d-flex flex-column align-items-center justify-content-center">
-                    <button>Login</button>
+                <div class="d-flex flex-column align-items-center justify-content-center hover-zoom">
+                    <button class="bg-dark text-light">Login</button>
                 </div>
             </form>
         </div>
