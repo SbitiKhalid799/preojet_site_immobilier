@@ -24,3 +24,7 @@ Route::get('/Login', function () {
 Route::get('/Singup', function () {
     return view('Singiup');
 });
+
+Route::get('/Favorites', function () {
+    return view('Favorites');
+});
