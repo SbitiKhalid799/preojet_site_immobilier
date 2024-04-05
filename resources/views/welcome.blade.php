@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>HUU</h1>
+    {{-- Hadi hya lpage dial lvisiteur matzidch chi page khra smitha visiteur lpage lwla li ghatl3 hya visiteur li hya  
+        li hya nit had welcome --}}
+    <h1 class="bg-primary">Visiteur page</h1>
 </body>
 </html>

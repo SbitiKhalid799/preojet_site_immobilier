@@ -21,10 +21,14 @@ Route::get('/Login', function () {
     return view('Login');
 });
 
-Route::get('/Singup', function () {
-    return view('Singiup');
+Route::get('/Signup', function () {
+    return view('Signup');
 });
 
 Route::get('/Favorites', function () {
     return view('Favorites');
 });
+Route::get('/users', function () {
+    return view('User');
+});
+;

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <title>Singup</title>
+   <link  href="/bootstrap-5.3.2-dist/css/bootstrap.css" rel="stylesheet">
+    <title>Signup</title>
     <style>
         body{
             overflow: hidden;
@@ -63,6 +63,7 @@
             background-color: white;
 
         }
+       
 
     </style>
 </head>
@@ -90,15 +91,34 @@
                     <input type="text" class="form-control border-dark">
                 </div>
                 <div>
-                    <label for="">Conferm password</label>
+                    <label for=""> Password Confirmation </label>
                     <br>
                     <input type="password" class="form-control border-dark">
                 </div>
                 <div class="d-flex flex-column align-items-center justify-content-center hover-zoom">
-                    <button class="bg-dark text-light">Sing Up</button>
+                    <button class="btn btn-dark text-light" >Sing Up</button>
                 </div>
             </form>
         </div>
     </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
 </body>
 </html>

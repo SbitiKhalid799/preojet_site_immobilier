@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   <link  href="/bootstrap-5.3.2-dist/css/bootstrap.css" rel="stylesheet">
+
     <title>Login</title>
     <style>
         body{
@@ -19,6 +20,9 @@
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
+        }
+        .text-dark{
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
         }
 
         form{
@@ -63,6 +67,11 @@
             background-color: white;
 
         }
+        .bottom-content{
+            margin-top: 2px;
+            padding: 0px;
+ 
+        }
 
     </style>
 </head>
@@ -85,10 +94,20 @@
                     <input type="text" class="form-control border-dark">
                 </div>
                 <div class="d-flex flex-column align-items-center justify-content-center hover-zoom">
-                    <button class="bg-dark text-light">Login</button>
+                    <button class="bg-dark text-light mt-2">Login</button>
+                </div>
+                <div class="bottom-content"> 
+                    
+                        <img src="images/icons8-back.gif" class="d-inline" > 
+                        <a href="/" class="text-dark h4 blockquote d-inline">BACK</a>
                 </div>
             </form>
         </div>
     </main>
+
+
+
+   <link  href="/bootstrap-5.3.2-dist/js/bootstrap.js" rel="stylesheet">
+
 </body>
 </html>
